@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #F0F4F3;
+}
+
+h1{
+    text-align: center;
+    color:#3AB19B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form{
+    width: 80%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 5px 5px #3AB19B ;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #BEC1C0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #3AB19B;
+}
+
+.email{
+    width: 70%;
+    height:30px;
+    border-radius: 5px;
+    border: 2px solid #3AB19B;
+    margin-top: 5px;
+    text-indent: 35px;
+    background-image: url(../img/email.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    color: #3AB19B;
+}
+.pass{
+    width: 60%;
+    height:30px;
+    border-radius: 5px;
+    border: 2px solid #3AB19B;
+    margin-top: 5px;
+    vertical-align:text-bottom;
+    text-indent: 35px;
+    background-image: url(../img/pass.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    color: #3AB19B;
+
+}
+.chec{
+    width: 10%;
+    height:30px;
+    border-radius: 5px;
+    border: 2px solid #3AB19B;
+    
+
+}
+
+.button{
+    width: 50%;
+    height: 30px;
+    border: 2px solid #BEC1C0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3AB19B;
+    color: #F4F8F7;
+}
